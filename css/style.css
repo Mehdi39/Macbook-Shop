@@ -1,0 +1,40 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* common style */
+
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+button:hover {
+    background-color: rgb(172, 172, 172);
+}
+
+button:active {
+    background-color: gray;
+}
+
+/* style for macbook image */
+img {
+    width: 100%;
+    padding: 30px;
+}
+
+/*  style for details */
+.td {
+    padding-right: 100px;
+}
+
+tr {
+    border-bottom: 1px solid black;
+}
+
+#darkBorder {
+    border-top: 2px solid black;
+}

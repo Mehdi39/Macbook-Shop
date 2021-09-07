@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <title>Mac Book Pro</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <main class="container">
+      <div class="d-flex justify-content-between">
+        <div>
+          <img src="./images/mac.png" alt="" />
+        </div>
+        <div>
+          <div class="my-5">
+            <h1>Customize your Blue 24-inch iMac with Apple M1 chip</h1>
+            <p>
+              Apple M1 Chip with 8-core CPU with 4 performance cores and 4
+              efficiency core, 7-core GPU, and 16-core Neural Engine 8GB unified
+              memory 256GB SSD storage Two Thunderbold/USB 4 ports Magic Mouse
+              Magic Keyboard - US English
+            </p>
+          </div>
+          <div class="my-5">
+              <h3>Memory</h3>
+              <div>
+                  <button id="8gb-price">8GB unified Memory</button>
+                  <button id="16gb-price">16GB unified Memory</button>
+              </div>
+          </div>
+          <div class="my-5">
+              <h3>Storage</h3>
+              <div>
+                  <button id="256gd-price">256GB SSD storage</button>
+                  <button id="512gb-price">512GB SSD storage</button>
+                  <button id="1tb-price">1TB SSD storage</button>
+              </div>
+          </div>
+          <div class="my-5">
+              <h3>Choose your delivery option</h3>
+              <div>
+                  <button id="free-delivery">Friday, Aug 25 FREE Prime Delivery</button>
+                  <button id="delivery-charge">Friday, Aug 21 Delivery Charge $20</button>
+              </div>
+          </div>
+          <div class="my-5">
+            <table>
+                <tr>
+                  <td class="td">Best Price</td>
+                  <td>$<span>1299</span></td>
+                </tr>
+                <tr>
+                  <td class="td">Extra Memory Cost</td>
+                  <td>$<span id="extra-memory-cost">0</span></td>
+                </tr>
+                <tr>
+                  <td class="td">Extra Storage Cost</td>
+                  <td>$<span id="extra-storage-cost">0</span></td>
+                </tr>
+                <tr>
+                  <td class="td">Delivery Charge</td>
+                  <td>$<span id="delivery-cost">0</span></td>
+                </tr>
+                <tr id="darkBorder">
+                  <td class="td"> Total Price</td>
+                  <td>$<span id="total-price">1299</span></td>
+                </tr>
+              </table>
+          </div>
+          <div>
+            <p>Add Promo code</p>
+            <form action="">
+                <input type="text" id="promo_Code" name="promo_Code" placeholder="Get Discount Here">
+                <input type="button" value="Apply" id="promo_Btn">
+            </form>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <h2 class="text-center">Total: $<span id="total-price-after-discount-amount">1299</span></h2>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
